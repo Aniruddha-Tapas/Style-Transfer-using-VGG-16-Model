@@ -1,5 +1,4 @@
 # Functions for downloading and extracting data-files from the internet.
-#
 # Implemented in Python 3.5
 
 import sys
@@ -72,6 +71,3 @@ def maybe_download_and_extract(url, download_dir):
         print("Done.")
     else:
         print("Data has apparently already been downloaded and unpacked.")
-
-
-########################################################################
